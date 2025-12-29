@@ -1,0 +1,437 @@
+{
+  "general": {
+    "appTitle": "Hiddify",
+    "reset": "ပြန်လည်သတ်မှတ်မည်",
+    "toggle": {
+      "enabled": "ဖွင့်ထားပါသည်",
+      "disabled": "ပိတ်ထားပါသည်"
+    },
+    "state": {
+      "disable": "ပိတ်ရန်"
+    },
+    "sort": "အစီအစဉ်ချရန်",
+    "sortBy": "အစီအစဉ်ချရန် အမျိုးအစား",
+    "addToClipboard": "Clipboard သို့ ထည့်သွင်းရန်",
+    "notSet": "မသတ်မှတ်ရသေးပါ",
+    "agree": "သဘောတူပါသည်",
+    "decline": "ငြင်းပယ်ပါသည်",
+    "unknown": "မသိရှိပါ",
+    "hidden": "ဖျောက်ထားပါသည်",
+    "timeout": "အချိန်ကုန်ဆုံးသွားပါသည်",
+    "clipboardExportSuccessMsg": "Clipboard သို့ အောင်မြင်စွာ ထည့်သွင်းပြီးပါပြီ",
+    "showMore": "နောက်ထပ် ပြရန်",
+    "showLess": "အနည်းငယ်သာ ပြရန်",
+    "openAppSettings": "အက်ပ် ဆက်တင်များ ဖွင့်ရန်",
+    "grantPermission": "ခွင့်ပြုရန်"
+  },
+  "intro": {
+    "termsAndPolicyCaution(rich)": "ဆက်လက်လုပ်ဆောင်ပါက ${tap(@:about.termsAndConditions)} ကို သဘောတူညီပါသည်ဟု ယူဆပါသည်",
+    "start": "စတင်ရန်"
+  },
+  "home": {
+    "pageTitle": "ပင်မစာမျက်နှာ",
+    "emptyProfilesMsg": "Subscription Profile တစ်ခု ထည့်သွင်းခြင်းဖြင့် စတင်ပါ",
+    "noActiveProfileMsg": "Profile တစ်ခုကို ရွေးချယ်ပါ"
+  },
+  "stats": {
+    "traffic": "ဒေတာ အသုံးပြုမှု",
+    "trafficLive": "တိုက်ရိုက် ဒေတာ အသုံးပြုမှု",
+    "trafficTotal": "စုစုပေါင်း ဒေတာ အသုံးပြုမှု",
+    "uplink": "ပို့လွှတ်ဒေတာ",
+    "downlink": "လက်ခံဒေတာ",
+    "connection": "ချိတ်ဆက်မှု",
+    "speed": "အမြန်နှုန်း",
+    "totalTransferred": "လွှဲပြောင်းပြီးသော ဒေတာ စုစုပေါင်း"
+  },
+  "profile": {
+    "overviewPageTitle": "Profile များ",
+    "detailsPageTitle": "Profile အသေးစိတ်",
+    "activeProfileNameSemanticLabel": "လက်ရှိ အသုံးပြုနေသော Profile အမည်မှာ \"${name}\" ဖြစ်ပါသည်",
+    "activeProfileBtnSemanticLabel": "Profile များအားလုံး ကြည့်ရှုရန်",
+    "nonActiveProfileBtnSemanticLabel": "\"${name}\" ကို လက်ရှိ Profile အဖြစ် ရွေးချယ်ရန်",
+    "subscription": {
+      "traffic": "ဒေတာ",
+      "updatedTimeAgo": "${timeago} အချိန်တွင် နောက်ဆုံး အပ်ဒိတ်လုပ်ထားပါသည်",
+      "remainingDuration": "ကျန်ရှိသော ရက်ပေါင်း ${duration} ရက်",
+      "remainingTrafficSemanticLabel": "စုစုပေါင်း ${total} ထဲမှ ${consumed} ကို အသုံးပြုပြီးဖြစ်ပါသည်",
+      "expired": "သက်တမ်း ကုန်ဆုံးပြီးပါပြီ",
+      "noTraffic": "ဒေတာ အသုံးပြုခွင့် ကုန်ဆုံးပါပြီ",
+      "upload": "ပို့လွှတ်ဒေတာ",
+      "download": "လက်ခံဒေတာ",
+      "total": "စုစုပေါင်း ဒေတာ",
+      "expireDate": "သက်တမ်းကုန်ဆုံးရက်"
+    },
+    "sortBy": {
+      "lastUpdate": "နောက်ဆုံး အပ်ဒိတ်အလိုက်",
+      "name": "အက္ခရာစဉ်အလိုက်"
+    },
+    "add": {
+      "buttonText": "Profile အသစ် ထည့်ရန်",
+      "shortBtnTxt": "Profile အသစ်",
+      "fromClipboard": "Clipboard မှ ထည့်သွင်းရန်",
+      "scanQr": "QR Code စကင်ဖတ်ရန်",
+      "qrScanner": {
+        "permissionDeniedError": "ခွင့်ပြုချက် ပိတ်ထားပါသည်",
+        "unexpectedError": "မမျှော်လင့်သော အမှား ဖြစ်ပေါ်ခဲ့ပါသည်",
+        "torchSemanticLabel": "မီးအလင်း ဖွင့်ရန်",
+        "facingSemanticLabel": "ကင်မရာ ဦးတည်ချက်",
+        "permissionRequest": "QR Code စကင်ဖတ်ရန် ကင်မရာ ခွင့်ပြုချက် လိုအပ်ပါသည်"
+      },
+      "manually": "လက်ဖြင့် ထည့်သွင်းရန်",
+      "addWarp": "WARP ထည့်သွင်းရန်",
+      "addingWarpMsg": "WARP ကို မှတ်ပုံတင်နေပါသည်၊ ခဏစောင့်ပါ",
+      "addingProfileMsg": "Profile ကို ထည့်သွင်းနေပါသည်",
+      "failureMsg": "Profile ထည့်သွင်းမှု မအောင်မြင်ပါ"
+    },
+    "update": {
+      "buttonTxt": "အပ်ဒိတ်လုပ်ရန်",
+      "tooltip": "Profile အပ်ဒိတ်လုပ်ရန်",
+      "updateSubscriptions": "Subscription များကို အပ်ဒိတ်လုပ်ရန်",
+      "failureMsg": "Profile အပ်ဒိတ်လုပ်ခြင်း မအောင်မြင်ပါ",
+      "successMsg": "Profile ကို အောင်မြင်စွာ အပ်ဒိတ်လုပ်ပြီးပါပြီ",
+      "namedFailureMsg": "\"${name}\" ကို အပ်ဒိတ်လုပ်၍ မရပါ",
+      "namedSuccessMsg": "\"${name}\" ကို အောင်မြင်စွာ အပ်ဒိတ်လုပ်ပြီးပါပြီ"
+    },
+    "share": {
+      "buttonText": "မျှဝေရန်",
+      "exportToClipboardSuccess": "Clipboard သို့ အောင်မြင်စွာ ထုတ်ယူပြီးပါပြီ",
+      "exportSubLinkToClipboard": "Subscription Link ကို Clipboard သို့ ထုတ်ယူရန်",
+      "subLinkQrCode": "Subscription Link QR Code",
+      "exportConfigToClipboard": "Configuration ကို Clipboard သို့ ထုတ်ယူရန်",
+      "exportConfigToClipboardSuccess": "Configuration ကို Clipboard သို့ ကူးယူပြီးပါပြီ"
+    },
+    "edit": {
+      "buttonTxt": "ပြင်ဆင်ရန်",
+      "selectActiveTxt": "လက်ရှိ Profile အဖြစ် ရွေးချယ်ရန်"
+    },
+    "delete": {
+      "buttonTxt": "ဖျက်ရန်",
+      "confirmationMsg": "Profile ကို အမြဲတမ်း ဖျက်လိုပါသလား",
+      "successMsg": "Profile ကို အောင်မြင်စွာ ဖျက်ပြီးပါပြီ"
+    },
+    "save": {
+      "buttonText": "သိမ်းဆည်းရန်",
+      "successMsg": "Profile ကို အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ",
+      "failureMsg": "Profile ကို သိမ်းဆည်း၍ မရပါ"
+    },
+    "detailsForm": {
+      "nameLabel": "အမည်",
+      "nameHint": "Profile အမည်",
+      "urlLabel": "URL",
+      "urlHint": "Configuration URL အပြည့်အစုံ",
+      "emptyNameMsg": "အမည် ထည့်သွင်းရန် လိုအပ်ပါသည်",
+      "invalidUrlMsg": "URL မမှန်ကန်ပါ",
+      "lastUpdate": "နောက်ဆုံး အပ်ဒိတ်",
+      "updateInterval": "အလိုအလျောက် အပ်ဒိတ်",
+      "updateIntervalDialogTitle": "အလိုအလျောက် အပ်ဒိတ် အချိန်ကာလ (နာရီ)"
+    },
+  "proxies": {
+    "pageTitle": "Proxy များ",
+    "emptyProxiesMsg": "အသုံးပြုနိုင်သော Proxy မရှိပါ",
+    "delayTestTooltip": "နှောင့်နှေးမှု စမ်းသပ်ရန်",
+    "sortTooltip": "Proxy များကို အစီအစဉ်ချရန်",
+    "checkIp": "IP စစ်ဆေးရန်",
+    "unknownIp": "IP မသိရှိပါ",
+    "sortOptions": {
+      "unsorted": "မူလအတိုင်း",
+      "name": "အက္ခရာစဉ်အလိုက်",
+      "delay": "နှောင့်နှေးမှုအလိုက်"
+    },
+    "activeProxySemanticLabel": "လက်ရှိ အသုံးပြုနေသော Proxy",
+    "delaySemantics": {
+      "result": "နှောင့်နှေးမှု: ${delay}ms",
+      "timeout": "နှောင့်နှေးမှု စမ်းသပ်ခြင်း အချိန်ကုန်ဆုံးပါသည်",
+      "testing": "နှောင့်နှေးမှု: စမ်းသပ်နေပါသည်..."
+    },
+    "ipInfoSemantics": {
+      "address": "IP လိပ်စာ",
+      "country": "နိုင်ငံ"
+    }
+  },
+  "logs": {
+    "pageTitle": "မှတ်တမ်းများ",
+    "filterHint": "စစ်ထုတ်ရန်",
+    "allLevelsFilter": "အားလုံး",
+    "shareCoreLogs": "Core မှတ်တမ်းများ မျှဝေရန်",
+    "shareAppLogs": "အက်ပ် မှတ်တမ်းများ မျှဝေရန်",
+    "pauseTooltip": "ခဏရပ်ရန်",
+    "resumeTooltip": "ဆက်လက်လုပ်ဆောင်ရန်",
+    "clearTooltip": "ရှင်းလင်းရန်"
+  },
+  "settings": {
+    "pageTitle": "ဆက်တင်များ",
+    "requiresRestartMsg": "ဤပြောင်းလဲမှုကို သက်ရောက်စေရန် အက်ပ်ကို ပြန်လည်စတင်ရန် လိုအပ်ပါသည်",
+    "experimental": "စမ်းသပ်ဆဲ",
+    "experimentalMsg": "စမ်းသပ်ဆဲ အမှတ်အသားပါရှိသော လုပ်ဆောင်ချက်များသည် ဖွံ့ဖြိုးဆဲအဆင့်တွင် ရှိပြီး ပြဿနာများ ဖြစ်ပေါ်နိုင်ပါသည်",
+    "exportOptions": "အမည်မဖော်သော ဆက်တင်များကို Clipboard သို့ ကူးယူရန်",
+    "exportAllOptions": "ဆက်တင်များအားလုံးကို Clipboard သို့ ကူးယူရန်",
+    "importOptions": "Clipboard မှ ဆက်တင်များ ထည့်သွင်းရန်",
+    "importOptionsMsg": "ပေးထားသော တန်ဖိုးများဖြင့် ဆက်တင်အားလုံးကို ပြန်လည်ရေးသားမည် ဖြစ်ပါသည်။ ဆက်လက်လုပ်ဆောင်လိုပါသလား",
+    "general": {
+      "sectionTitle": "အထွေထွေ",
+      "locale": "ဘာသာစကား",
+      "region": "ဒေသ",
+      "regionMsg": "ပြည်တွင်းလိပ်စာများကို ကျော်လွှားရန် မူလ ဆက်တင်များ သတ်မှတ်ရန် အထောက်အကူပြုပါသည်",
+      "regions": {
+        "ir": "အီရန် (ir) 🇮🇷",
+        "cn": "တရုတ် (cn) 🇨🇳",
+        "ru": "ရုရှား (ru) 🇷🇺",
+        "af": "အာဖဂန်နစ္စတန် (af) 🇦🇫",
+        "id": "အင်ဒိုနီးရှား (id) 🇮🇩",
+        "tr": "တူရကီ (tr) 🇹🇷",
+        "br": "ဘရာဇီး (br) 🇧🇷",
+	"mm": "မြန်မာ (mm) mm",
+        "other": "အခြား"
+      },
+      "themeMode": "အပြင်အဆင် မုဒ်",
+      "themeModes": {
+        "system": "စနစ်အပြင်အဆင်အတိုင်း",
+        "dark": "အမှောင် မုဒ်",
+        "light": "အလင်း မုဒ်",
+        "black": "အမဲ မုဒ်"
+      },
+      "enableAnalytics": "ဒေတာခွဲခြမ်းစိတ်ဖြာမှု ဖွင့်ရန်",
+      "enableAnalyticsMsg": "အက်ပ်ကို တိုးတက်ကောင်းမွန်စေရန် ဒေတာခွဲခြမ်းစိတ်ဖြာမှု စုဆောင်းခြင်းနှင့် အမှားမှတ်တမ်းများ ပို့ရန် ခွင့်ပြုပါသည်",
+      "autoStart": "လော့ဂ်အင်ဝင်ချိန်တွင် အလိုအလျောက် စတင်ရန်",
+      "silentStart": "အနည်းငယ်သာ ပြသပြီး စတင်ရန်",
+      "openWorkingDir": "လုပ်ငန်းဖိုင်တွဲ ဖွင့်ရန်",
+      "ignoreBatteryOptimizations": "ဘက်ထရီ အကောင်းမြင် ဆက်တင်များ ပိတ်ရန်",
+      "ignoreBatteryOptimizationsMsg": "VPN စွမ်းဆောင်ရည် အကောင်းဆုံးရရှိစေရန် ကန့်သတ်ချက်များ ဖယ်ရှားပါသည်",
+      "dynamicNotification": "အသိပေးချက်တွင် အမြန်နှုန်း ပြရန်",
+      "hapticFeedback": "ထိတွေ့ တုန့်ပြန်မှု",
+      "autoIpCheck": "ချိတ်ဆက်မှု IP ကို အလိုအလျောက် စစ်ဆေးရန်",
+      "actionAtClosing": "ပိတ်သိမ်းချိန်တွင် လုပ်ဆောင်ချက်",
+      "actionsAtClosing": {
+        "askEachTime": "အကြိမ်တိုင်း မေးရန်",
+        "hide": "ဖျောက်ရန်",
+        "exit": "ထွက်ရန်"
+      }
+    },
+    "advanced": {
+      "sectionTitle": "အဆင့်မြင့်",
+      "debugMode": "Debug မုဒ်",
+      "debugModeMsg": "ဤပြောင်းလဲမှုကို အသက်သွင်းရန် အက်ပ်ကို ပြန်လည်စတင်ရန် လိုအပ်ပါသည်",
+      "memoryLimit": "မှတ်ဉာဏ် ကန့်သတ်ချက်",
+      "memoryLimitMsg": "မှတ်ဉာဏ်မလုံလောက်မှု အမှားများ သို့မဟုတ် အက်ပ် မကြာခဏ ပိတ်သွားပါက ဖွင့်ပါ",
+      "resetTunnel": "VPN Profile ကို ပြန်လည်သတ်မှတ်ရန်"
+    },
+    "network": {
+      "perAppProxyPageTitle": "အက်ပ်အလိုက် Proxy",
+      "perAppProxyModes": {
+        "off": "အားလုံး",
+        "offMsg": "အက်ပ်အားလုံးကို Proxy ဖြင့် ချိတ်ဆက်ရန်",
+        "include": "Proxy",
+        "includeMsg": "ရွေးချယ်ထားသော အက်ပ်များကိုသာ Proxy ဖြင့် ချိတ်ဆက်ရန်",
+        "exclude": "ကျော်လွှားရန်",
+        "excludeMsg": "ရွေးချယ်ထားသော အက်ပ်များကို Proxy မသုံးရန်"
+      },
+      "showSystemApps": "စနစ်အက်ပ်များ ပြရန်",
+      "hideSystemApps": "စနစ်အက်ပ်များ ဖျောက်ရန်",
+      "clearSelection": "ရွေးချယ်မှုများ ရှင်းလင်းရန်"
+    },
+    "geoAssets": {
+      "pageTitle": "လမ်းကြောင်း သတ်မှတ်မှု အရင်းအမြစ်များ",
+      "geoip": "GeoIP",
+      "geosite": "GeoSite",
+      "version": "ဗားရှင်း ${version}",
+      "fileMissing": "ဖိုင် မရှိပါ",
+      "update": "အပ်ဒိတ်လုပ်ရန်",
+      "download": "ဒေါင်းလုဒ်လုပ်ရန်",
+      "failureMsg": "အရင်းအမြစ် အပ်ဒိတ်လုပ်ခြင်း မအောင်မြင်ပါ",
+      "successMsg": "အရင်းအမြစ်ကို အောင်မြင်စွာ အပ်ဒိတ်လုပ်ပြီးပါပြီ",
+      "addRecommended": "အကြံပြုထားသော အရင်းအမြစ်များ ထည့်သွင်းရန်",
+      "missingGeoAssetsMsg": "ရွေးချယ်ထားသော လမ်းကြောင်း အရင်းအမြစ်ဖိုင်များ မရှိပါ။ ဒေါင်းလုဒ်လုပ်ပါ သို့မဟုတ် ရှိပြီးသားကို ရွေးချယ်ပါ"
+    }
+  },
+  "about": {
+    "pageTitle": "အကြောင်းအရာ",
+    "version": "ဗားရှင်း",
+    "sourceCode": "ရင်းမြစ်ကုဒ်",
+    "telegramChannel": "Telegram ချန်နယ်",
+    "checkForUpdate": "အပ်ဒိတ် စစ်ဆေးရန်",
+    "privacyPolicy": "ကိုယ်ရေးကိုယ်တာ မူဝါဒ",
+    "termsAndConditions": "စည်းကမ်းချက်များနှင့် သတ်မှတ်ချက်များ"
+  },
+  "appUpdate": {
+    "notAvailableMsg": "နောက်ဆုံးဗားရှင်းကို အသုံးပြုနေပါသည်",
+    "dialogTitle": "အပ်ဒိတ် ရရှိနိုင်ပါသည်",
+    "updateMsg": "@:general.appTitle ၏ ဗားရှင်းအသစ် ရရှိနိုင်ပါသည်။ ယခု အပ်ဒိတ်လုပ်လိုပါသလား",
+    "currentVersionLbl": "လက်ရှိ ဗားရှင်း",
+    "newVersionLbl": "ဗားရှင်း အသစ်",
+    "updateNowBtnTxt": "ယခု အပ်ဒိတ်လုပ်ရန်",
+    "laterBtnTxt": "နောက်မှ",
+    "ignoreBtnTxt": "လျစ်လျူရှုရန်"
+  },
+  "tray": {
+    "dashboard": "ဒက်ရှ်ဘုတ်",
+    "quit": "ပိတ်ရန်",
+    "open": "ဖွင့်ရန်",
+    "status": {
+      "connect": "ချိတ်ဆက်ရန်",
+      "connecting": "ချိတ်ဆက်နေပါသည်",
+      "disconnect": "ချိတ်ဆက်မှု ဖြုတ်ရန်",
+      "disconnecting": "ချိတ်ဆက်မှု ဖြုတ်နေပါသည်"
+    }
+  },
+  "failure": {
+    "unexpected": "မမျှော်လင့်သော အမှား",
+    "clash": {
+      "unexpected": "မမျှော်လင့်သော အမှား",
+      "core": "Clash အမှား ${reason}"
+    },
+    "singbox": {
+      "unexpected": "မမျှော်လင့်သော ဝန်ဆောင်မှု အမှား",
+      "serviceNotRunning": "ဝန်ဆောင်မှု မလုပ်ဆောင်နေပါ",
+      "missingPrivilege": "ခွင့်ပြုချက် မလုံလောက်ပါ",
+      "missingPrivilegeMsg": "VPN မုဒ်အတွက် အုပ်ချုပ်ရေး အခွင့်အရေး လိုအပ်ပါသည်။ အုပ်ချုပ်ရေးအဖြစ် ပြန်လည်ဖွင့်ပါ သို့မဟုတ် ဝန်ဆောင်မှု မုဒ်ကို ပြောင်းလဲပါ",
+      "missingGeoAssets": "Geo အရင်းအမြစ်များ မရှိပါ",
+      "missingGeoAssetsMsg": "Geo အရင်းအမြစ်များ မရှိပါ။ လက်ရှိ အရင်းအမြစ်ကို ပြောင်းလဲပါ သို့မဟုတ် ဆက်တင်များတွင် ဒေါင်းလုဒ်လုပ်ပါ",
+      "invalidConfigOptions": "ဆက်တင် ရွေးချယ်မှုများ မမှန်ကန်ပါ",
+      "invalidConfig": "ဆက်တင် မမှန်ကန်ပါ",
+      "create": "ဝန်ဆောင်မှု ဖန်တီးမှု အမှား",
+      "start": "ဝန်ဆောင်မှု စတင်မှု အမှား"
+    },
+    "connectivity": {
+      "unexpected": "မမျှော်လင့်သော ချို့ယွင်းမှု",
+      "missingVpnPermission": "VPN ခွင့်ပြုချက် မရှိပါ",
+      "missingNotificationPermission": "အသိပေးချက် ခွင့်ပြုချက် မရှိပါ",
+      "core": "Core အမှား"
+    },
+    "profiles": {
+      "unexpected": "မမျှော်လင့်သော အမှား",
+      "notFound": "Profile မတွေ့ရှိပါ",
+      "invalidConfig": "ဆက်တင်များ မမှန်ကန်ပါ",
+      "invalidUrl": "URL မမှန်ကန်ပါ"
+    },
+    "connection": {
+      "unexpected": "မမျှော်လင့်သော ချိတ်ဆက်မှု အမှား",
+      "timeout": "ချိတ်ဆက်မှု အချိန်ကုန်ဆုံးပါသည်",
+      "badResponse": "မမှန်ကန်သော တုံ့ပြန်မှု",
+      "connectionError": "ချိတ်ဆက်မှု အမှား",
+      "badCertificate": "လက်မှတ် အမှား"
+    },
+    "geoAssets": {
+      "unexpected": "မမျှော်လင့်သော အမှား",
+      "notUpdate": "အပ်ဒိတ် မရှိပါ",
+      "activeNotFound": "လက်ရှိ Geo အရင်းအမြစ် မတွေ့ရှိပါ"
+    }
+  },
+  "play": {
+    "title": "Hiddify (ကြိုတင်ကြည့်ရှု)",
+    "short_description": "Auto, SSH, VLESS, VMess, Trojan, Reality, Sing-Box, Clash, XRay, Shadowsocks",
+    "full_description": "Hiddify ၏ အဓိက ရည်ရွယ်ချက်မှာ လုံခြုံ၊ အသုံးပြုရလွယ်ကူပြီး ထိရောက်သော tunneling client တစ်ခု ပံ့ပိုးပေးရန် ဖြစ်ပါသည်။ VPN ဝန်ဆောင်မှု ခွင့်ပြုချက်ကို အသုံးပြု၍ မိမိရွေးချယ်သော အဝေးရှိ ဆာဗာသို့ လမ်းကြောင်း ချိတ်ဆက်ပေးနိုင်ပါသည်။\n\nမှတ်ချက်။ ဆာဗာ မပံ့ပိုးပေးပါ။ အသုံးပြုသူများအနေဖြင့် ကိုယ်ပိုင် self-hosted ဆာဗာ သို့မဟုတ် ယုံကြည်ရသော ဆာဗာများကို အသုံးပြုရန် လိုအပ်ပါသည်။\n\nအောက်ပါ ဆာဗာများကို ထောက်ပံ့ပါသည်။\n- ပုံမှန် V2Ray/XRay Subscription Link\n- Clash Subscription Link\n- Sing-Box Subscription Link\n\nထူးခြားချက်များ။\n- အသုံးပြုရ လွယ်ကူသည်\n- မြန်ဆန်ပြီး အကောင်းဆုံး ပြုပြင်ထားသည်\n- အနိမ့်ဆုံး Ping ကို အလိုအလျောက် ရွေးချယ်ပေးသည်\n- အသုံးပြုမှု အချက်အလက်များ ပြသပေးသည်\n- Deeplinking ဖြင့် Subscription Link ကို တစ်ချက်နှိပ်ရုံဖြင့် ထည့်သွင်းနိုင်သည်\n- အခမဲ့ ဖြစ်ပြီး ကြော်ငြာ မပါဝင်ပါ\n- Subscription Link များကို လွယ်ကူစွာ ပြောင်းလဲနိုင်သည်\n- ဆက်လက် ထပ်မံ ပါဝင်လာမည့် အင်္ဂါရပ်များ\n\nထောက်ပံ့သော Protocol များ။\n- Sing-Box မှ ထောက်ပံ့သော Protocol အားလုံး\n- VLESS + XTLS Reality, Vision\n- VMess\n- Trojan\n- ShadowSocks\n- Reality\n- WireGuard\n- V2Ray\n- Hysteria2\n- TUICv5\n- SSH\n- ShadowTLS\n\n\nရင်းမြစ်ကုဒ်ကို https://github.com/hiddify/Hiddify-Next တွင် တွေ့ရှိနိုင်ပါသည်။\nအက်ပ်၏ Core ကို open-source Sing-Box အပေါ် အခြေခံထားပါသည်။\n\nခွင့်ပြုချက်များ၏ ရည်ရွယ်ချက်။\n- VPN Service: လမ်းကြောင်းချိတ်ဆက်ပေးရန် လိုအပ်ပါသည်။\n- QUERY ALL PACKAGES: အက်ပ်များကို Proxy ဖြင့် ချိတ်ဆက်ရန် သို့မဟုတ် ကျော်လွှားရန် ရွေးချယ်နိုင်စေရန် အသုံးပြုပါသည်။\n- RECEIVE BOOT COMPLETED: စက် ပြန်ဖွင့်ချိန်တွင် အက်ပ်ကို အလိုအလျောက် စတင်စေရန် ဖြစ်ပါသည်။\n- POST NOTIFICATIONS: VPN ဝန်ဆောင်မှုကို ဆက်လက် လုပ်ဆောင်နိုင်စေရန် foreground service အသုံးပြုပါသည်။\n- ဤအက်ပ်တွင် ကြော်ငြာ မပါဝင်ပါ။ Analytics နှင့် crash ဒေတာများကို အသုံးပြုသူ၏ ခွင့်ပြုချက်ဖြင့်သာ စုဆောင်းပါသည်။"
+  },
+  "connection": {
+    "tapToConnect": "နှိပ်၍ ချိတ်ဆက်ရန်",
+    "connecting": "ချိတ်ဆက်နေပါသည်",
+    "disconnecting": "ချိတ်ဆက်မှု ဖြုတ်နေပါသည်",
+    "connected": "ချိတ်ဆက်ပြီးပါပြီ",
+    "reconnect": "ပြန်လည် ချိတ်ဆက်ရန်",
+    "connectAnyWay": "ချိတ်ဆက်ရန်",
+    "experimentalNotice": "စမ်းသပ်ဆဲ အင်္ဂါရပ်များ အသုံးပြုနေပါသည်",
+    "experimentalNoticeMsg": "စမ်းသပ်ဆဲ အင်္ဂါရပ်အချို့ကို ဖွင့်ထားသဖြင့် ချိတ်ဆက်မှု အရည်အသွေး ထိခိုက်နိုင်ပြီး မမျှော်လင့်သော အမှားများ ဖြစ်ပေါ်နိုင်ပါသည်။ Config Options စာမျက်နှာမှ ပြောင်းလဲ သို့မဟုတ် ပြန်လည်သတ်မှတ်နိုင်ပါသည်။",
+    "disableExperimentalNotice": "ထပ်မံ မပြရန်",
+    "reconnectMsg": "ပြောင်းလဲမှုများကို ထည့်သွင်းစဉ်းစားရန် ပြန်လည် ချိတ်ဆက်နေပါသည်..."
+  },
+  "config": {
+    "useXrayCoreWhenPossible": {
+      "Label": "ဖြစ်နိုင်ပါက Xray-core ကို အသုံးပြုရန်",
+      "Description": "Subscription Link ကို parse လုပ်ရာတွင် Xray-core ကို အသုံးပြုပါသည်။ ဤရွေးချယ်မှုကို အသက်သွင်းရန် Subscription Link ကို ပြန်လည် ထည့်သွင်းရန် လိုအပ်ပါသည်။"
+    },
+    "resetBtn": "ဆက်တင်များ ပြန်လည်သတ်မှတ်ရန်",
+    "serviceMode": "ဝန်ဆောင်မှု မုဒ်",
+    "quickSettings": "အမြန် ဆက်တင်များ",
+    "setupWarp": "WARP ကို ပြင်ဆင်ရန်",
+    "allOptions": "ဆက်တင်များ အားလုံး",
+    "serviceModes": {
+      "proxy": "Proxy ဝန်ဆောင်မှုသာ",
+      "systemProxy": "စနစ် Proxy သတ်မှတ်ရန်",
+      "tun": "VPN",
+      "tunService": "VPN ဝန်ဆောင်မှု"
+    },
+    "shortServiceModes": {
+      "proxy": "Proxy",
+      "systemProxy": "System Proxy",
+      "tun": "VPN",
+      "tunService": "VPN ဝန်ဆောင်မှု"
+    },
+    "section": {
+      "route": "လမ်းကြောင်း ဆက်တင်များ",
+      "dns": "DNS ဆက်တင်များ",
+      "inbound": "Inbound ဆက်တင်များ",
+      "mux": "MultiPlexer",
+      "outbound": "Outbound ဆက်တင်များ",
+      "tlsTricks": "TLS အထူးပြင်ဆင်မှုများ",
+      "warp": "WARP ဆက်တင်များ",
+      "misc": "အထွေထွေ ဆက်တင်များ"
+    },
+    "warpConsent": {
+      "title": "Cloudflare WARP သဘောတူညီချက်",
+      "description(rich)": "Cloudflare WARP သည် အခမဲ့ WireGuard VPN ပံ့ပိုးသူ ဖြစ်ပါသည်။ ဤရွေးချယ်မှုကို ဖွင့်ပါက Cloudflare WARP ၏ ${tos(Terms of Service)} နှင့် ${privacy(Privacy Policy)} ကို သဘောတူညီပါသည်။"
+    },
+    "generateWarpConfig": "WARP Config ဖန်တီးရန်",
+    "missingWarpConfig": "WARP Config မရှိပါ",
+    "warpConfigGenerated": "WARP Config ကို ဖန်တီးပြီးပါပြီ",
+    "pageTitle": "ဆက်တင် ရွေးချယ်မှုများ",
+    "logLevel": "Log အဆင့်",
+    "blockAds": "ကြော်ငြာများ ပိတ်ရန်",
+    "resolveDestination": "ဦးတည်ရာ ဖြေရှင်းရန်",
+    "ipv6Mode": "IPv6 လမ်းကြောင်း",
+    "ipv6Modes": {
+      "disable": "ပိတ်ရန်",
+      "enable": "ဖွင့်ရန်",
+      "prefer": "ဦးစားပေး",
+      "only": "သာမန်မဟုတ် သီးသန့်"
+    },
+    "remoteDnsAddress": "အဝေး DNS",
+    "remoteDnsDomainStrategy": "အဝေး DNS Domain မဟာဗျူဟာ",
+    "directDnsAddress": "တိုက်ရိုက် DNS",
+    "directDnsDomainStrategy": "တိုက်ရိုက် DNS Domain မဟာဗျူဟာ",
+    "mixedPort": "Mixed Port",
+    "tproxyPort": "Transparent Proxy Port",
+    "localDnsPort": "Local DNS Port",
+    "allowConnectionFromLan": "ဒေသတွင်း ကွန်ယက်တွင် VPN မျှဝေရန်",
+    "tunImplementation": "TUN အကောင်အထည်ဖော်မှု",
+    "mtu": "Packet အရွယ်အစား (MTU)",
+    "connectionTestUrl": "ချိတ်ဆက်မှု စမ်းသပ် URL",
+    "urlTestInterval": "URL စမ်းသပ်မှု အချိန်ကာလ",
+    "enableClashApi": "Clash API ဖွင့်ရန်",
+    "clashApiPort": "Clash API Port",
+    "enableTun": "TUN ဖွင့်ရန်",
+    "setSystemProxy": "System Proxy သတ်မှတ်ရန်",
+    "enableDnsRouting": "DNS Routing ဖွင့်ရန်",
+    "enableFakeDns": "Fake DNS ဖွင့်ရန်",
+    "bypassLan": "LAN ကို ကျော်လွှားရန်",
+    "strictRoute": "တင်းကျပ်သော လမ်းကြောင်း",
+    "enableTlsFragment": "TLS Fragment ဖွင့်ရန်",
+    "tlsFragmentSize": "TLS Fragment အရွယ်အစား",
+    "tlsFragmentSleep": "TLS Fragment အနားယူချိန်",
+    "enableTlsMixedSniCase": "TLS Mixed SNI Case ဖွင့်ရန်",
+    "enableTlsPadding": "TLS Padding ဖွင့်ရန်",
+    "tlsPaddingSize": "TLS Padding အရွယ်အစား",
+    "enableMux": "Mux ဖွင့်ရန်",
+    "muxProtocol": "Mux Protocol",
+    "muxMaxStreams": "အမြင့်ဆုံး တပြိုင်နက် Stream အရေအတွက်",
+    "enableWarp": "WARP ဖွင့်ရန်",
+    "warpDetourMode": "လမ်းကြောင်း လွှဲပြောင်း မုဒ်",
+    "warpDetourModes": {
+      "proxyOverWarp": "Proxy များကို WARP မှတဆင့် လွှဲပြောင်းရန်",
+      "warpOverProxy": "WARP ကို Proxy မှတဆင့် လွှဲပြောင်းရန်",
+      "inbound": "WARP ကို Proxy မှတဆင့် လွှဲပြောင်းရန်",
+      "outbound": "Proxy များကို WARP မှတဆင့် လွှဲပြောင်းရန်"
+    },
+    "warpLicenseKey": "လိုင်စင် သော့",
+    "warpCleanIp": "သန့်ရှင်းသော IP",
+    "warpPort": "Port",
+    "warpNoise": "Noise အရေအတွက်",
+    "warpNoiseSize": "Noise အရွယ်အစား",
+    "warpNoiseMode": "Noise မုဒ်",
+    "warpNoiseDelay": "Noise နှောင့်နှေးချိန်"
+  },
+  "window": {
+    "hide": "ဖျောက်ရန်",
+    "close": "ထွက်ရန်",
+    "alertMessage": "အက်ပ်ကို ဖျောက်လိုပါသလား သို့မဟုတ် ထွက်လိုပါသလား",
+    "remember": "ရွေးချယ်မှုကို မှတ်သားထားရန်"
+  }
+}
